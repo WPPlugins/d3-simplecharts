@@ -1,0 +1,16 @@
+<FilesMatch "\.(?i:svg)$">
+  ForceType application/octet-stream
+  Header set Content-Disposition attachment
+</FilesMatch>
+<FilesMatch "\.(?i:json)$">
+  ForceType application/octet-stream
+  Header set Content-Disposition attachment
+</FilesMatch>
+<FilesMatch "\.(?i:tsv)$">
+  ForceType application/octet-stream
+  Header set Content-Disposition attachment
+</FilesMatch>
+<FilesMatch "\.(?i:csv)$">
+  ForceType application/octet-stream
+  Header set Content-Disposition attachment
+</FilesMatch>
